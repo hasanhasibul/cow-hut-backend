@@ -21,7 +21,7 @@ const createOrderService = async (req: Request) => {
       throw new Error('userDetails Not Found')
     }
 
-    const cowPrice: any = cowDetails?.price || 0
+    const cowPrice = cowDetails?.price || 0
     const sellerCorrentIncome: number = cowDetails?.seller?.income || 0
     const budget = userDetails?.budget || 0
 
