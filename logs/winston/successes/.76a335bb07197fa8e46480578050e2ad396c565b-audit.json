@@ -129,6 +129,16 @@
             "date": 1690999203971,
             "name": "/home/hasib/Documents/practice/next-level-project/assignement/Digital-Cow-Hut/logs/winston/successes/phu-2023-03-08-00-success.log",
             "hash": "447ada1f1428b45bfd5096236d9fe7fd7dfbed575d6ef3dcaa546a581a52c843"
+        },
+        {
+            "date": 1691174292339,
+            "name": "/home/hasib/Documents/practice/next-level-project/assignement/Digital-Cow-Hut/logs/winston/successes/phu-2023-05-08-00-success.log",
+            "hash": "2f45fb8148b8f23d5043c6987b73cbde8cd1e898e57bcab33f446b75fcba92e4"
+        },
+        {
+            "date": 1691176354223,
+            "name": "/home/hasib/Documents/practice/next-level-project/assignement/Digital-Cow-Hut/logs/winston/successes/phu-2023-05-08-01-success.log",
+            "hash": "bcca8f5eb64849221efae834c2523e09c226f9103ee2b7b640e532a8948f473a"
         }
     ],
     "hashType": "sha256"

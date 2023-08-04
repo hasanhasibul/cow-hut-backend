@@ -8,7 +8,7 @@ const router = express.Router()
 router.post(
   '/create-user',
   validateRequest(UserZodSchema),
-  userController.createUserController
+  userController.createUserController,
 )
 router.get('/users', userController.getUserController)
 router.delete('/users/:id', userController.deleteUserController)
@@ -16,7 +16,7 @@ router.get('/users/:id', userController.getUserByIdController)
 router.patch(
   '/users/:id',
   validateRequest(UserUpdateZodSchema),
-  userController.UserUpdateByIdController
+  userController.UserUpdateByIdController,
 )
 
 export const userRouter = router

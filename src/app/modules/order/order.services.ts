@@ -22,7 +22,7 @@ const createOrderService = async (req: Request) => {
     }
 
     const cowPrice = cowDetails?.price || 0
-    const sellerCorrentIncome: number = cowDetails?.seller?.income || 0
+    const sellerCorrentIncome = cowDetails?.seller?.income || 0
     const budget = userDetails?.budget || 0
 
     const remainingBuyedBudget = budget - cowPrice

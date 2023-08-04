@@ -14,7 +14,7 @@ const orderModelSchema = new Schema<orderInterface>(
   },
   {
     timestamps: true,
-  }
+  },
 )
 
 const OrderModel = model<orderInterface>('Orders', orderModelSchema)

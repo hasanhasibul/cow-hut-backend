@@ -55,7 +55,7 @@ const cowSchema = new Schema<cowSchemaInterface>(
   },
   {
     timestamps: true,
-  }
+  },
 )
 export type cowModalType = InferSchemaType<typeof cowSchema>
 

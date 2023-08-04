@@ -44,7 +44,7 @@ const userSchema = new Schema<userInterface>(
   },
   {
     timestamps: true,
-  }
+  },
 )
 
 export type UserModalType = InferSchemaType<typeof userSchema>

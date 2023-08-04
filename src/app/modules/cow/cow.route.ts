@@ -8,13 +8,13 @@ const router = express.Router()
 router.post(
   '/create-cows',
   validateRequest(createCowZodSchema),
-  cowControllers.createCowController
+  cowControllers.createCowController,
 )
 
 router.patch(
   '/cows/:id',
   validateRequest(updateCowZodSchema),
-  cowControllers.updateCowsController
+  cowControllers.updateCowsController,
 )
 
 router.get('/cows', cowControllers.getAllCowsController)

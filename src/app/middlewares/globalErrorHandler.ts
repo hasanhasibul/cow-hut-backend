@@ -10,7 +10,7 @@ const globalErrorHandler: ErrorRequestHandler = (
   error,
   req: Request,
   res: Response,
-  next: NextFunction
+  next: NextFunction,
 ) => {
   let statusCode: number | undefined = 500
   let message: string | undefined = 'Something went wrong !'
