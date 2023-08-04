@@ -139,6 +139,11 @@
             "date": 1691176354225,
             "name": "/home/hasib/Documents/practice/next-level-project/assignement/Digital-Cow-Hut/logs/winston/errors/phu-2023-05-08-01-error.log",
             "hash": "35753a869993edeea46551c032d24f562aeba4962d768f50e67eba07aaf0e998"
+        },
+        {
+            "date": 1691180330577,
+            "name": "/home/hasib/Documents/practice/next-level-project/assignement/Digital-Cow-Hut/logs/winston/errors/phu-2023-05-08-02-error.log",
+            "hash": "562c64726e4b8c0b60dd57d92e1aa484c07b1435bbb4ffcc3a5259bd62a1b6b6"
         }
     ],
     "hashType": "sha256"

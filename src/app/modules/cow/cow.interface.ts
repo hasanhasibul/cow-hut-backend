@@ -22,5 +22,6 @@ export interface cowSchemaInterface {
   weight: number
   label: 'for sale' | 'sold out'
   category: 'Beef' | 'Dairy' | 'DualPurpose'
-  seller: string | undefined
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  seller: string | undefined | any
 }
